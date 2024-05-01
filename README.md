@@ -11,3 +11,7 @@ you can run chrome in dev mode:
 ```C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security --disable-gpu --user-data-dir=%LOCALAPPDATA%\Google\chromeTemp```
 
 Then just drag and drop the ``index.html``` and the whole app should load.
+
+# About
+- This assessment was build using Angular and Bootstrap
+- Using the component architecture to have reusable parts 
