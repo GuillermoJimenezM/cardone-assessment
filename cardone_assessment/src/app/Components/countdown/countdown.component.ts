@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { PlaybookCtaComponent } from '../playbook-cta/playbook-cta.component';
 
 @Component({
   selector: 'app-countdown',
   standalone: true,
-  imports: [],
+  imports: [PlaybookCtaComponent],
   templateUrl: './countdown.component.html',
   styleUrl: './countdown.component.scss',
 })
