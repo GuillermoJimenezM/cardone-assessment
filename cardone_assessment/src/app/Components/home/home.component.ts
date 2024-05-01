@@ -5,7 +5,7 @@ import { PlaybookCtaComponent } from '../playbook-cta/playbook-cta.component';
 import { TestimonialsComponent } from '../testimonials/testimonials.component';
 import { PlaybookComponent } from '../playbook/playbook.component';
 import { BenefitSectionComponent } from '../benefit-section/benefit-section.component';
-
+import { FooterComponent } from '../footer/footer.component';
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -15,7 +15,9 @@ import { BenefitSectionComponent } from '../benefit-section/benefit-section.comp
     PlaybookCtaComponent,
     TestimonialsComponent,
     PlaybookComponent,
-    BenefitSectionComponent
+    BenefitSectionComponent,
+    FooterComponent
+
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
