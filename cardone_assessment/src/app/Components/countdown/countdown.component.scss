@@ -1,0 +1,22 @@
+.circle {
+  width: 6rem;
+  height: 6rem;
+  background: linear-gradient(to bottom, #feea69 0%, #e29323 100%);
+  border-radius: 50%; /* Make the element circular */
+  border: 4px solid #e29323;
+  span {
+    font-size: 2rem;
+    color: #42251f;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
+  }
+}
+
+.circle__text {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#header {
+  text-align: center;
+  font-size: 28px;
+  color: rgb(0, 68, 130);
+}
