@@ -4,6 +4,7 @@ import { CountdownComponent } from '../countdown/countdown.component';
 import { PlaybookCtaComponent } from '../playbook-cta/playbook-cta.component';
 import { TestimonialsComponent } from '../testimonials/testimonials.component';
 import { PlaybookComponent } from '../playbook/playbook.component';
+import { BenefitSectionComponent } from '../benefit-section/benefit-section.component';
 
 @Component({
   selector: 'app-home',
@@ -14,6 +15,7 @@ import { PlaybookComponent } from '../playbook/playbook.component';
     PlaybookCtaComponent,
     TestimonialsComponent,
     PlaybookComponent,
+    BenefitSectionComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',

@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12" id="section__header">
+      <h1 class="h1 fw-bold pb-3">Ready To Create Wealth In Your Life?</h1>
+
+      <h2 class="h2 fw-bold">The Good news is you can!</h2>
+
+      <div class="h2">
+        At 25 I was broke and in debt. Today, I have hundreds of different
+        Multiple Flows of Income providing me and my family with prosperity,
+        freedom and wealth.
+        <br /><br />Let me get you on the path to wealth today.
+      </div>
+    </div>
+  </div>
+
+  <div class="row h1 fw-bold pt-3" id="section__subheader">
+    <div class="col-12 text-center">Here Is What You Get</div>
+  </div>
+
+  <div class="row">
+    <div
+      *ngFor="let path of paths"
+      class="py-2 col-12 d-flex justify-content-center"
+    >
+      <img class="w-100" [src]="'assets/images/' + path" />
+    </div>
+  </div>
+</div>
